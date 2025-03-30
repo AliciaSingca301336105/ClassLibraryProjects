@@ -5,14 +5,14 @@ pool:
   name: AgentAlicia
 
 variables:
-  solution: '**/ClassLibraryProjects/*.sln'  # Looks for .sln inside ClassLibraryProjects
+  solution: '**/*.sln'  # Searches anywhere in the repo
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
 steps:
 - task: NuGetToolInstaller@1
 
-# Debugging Step: List all files to confirm solution file location
+# Debugging: List all files
 - script: dir /s /b
   displayName: 'List all files in the workspace'
 
