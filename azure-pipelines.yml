@@ -10,7 +10,7 @@ pool:
   name: 'AgentAlicia'
 
 variables:
-  solution: '**/MyProject.sln'
+  solution: 'C:\Users\alice\agents\_work\1\s'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
