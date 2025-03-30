@@ -10,7 +10,7 @@ pool:
   name: 'AgentAlicia'
 
 variables:
-  solution: '*/.sln'
+  solution: '**/MyProject.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
